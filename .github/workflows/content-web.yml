@@ -17,7 +17,7 @@ env:
   resourceGroupName: 'fabmedical-492753'
   clusterName: 'fabmedical-492753'
   containerRegistryName: 'acr492753'
-  containerRegistry: 'acr495723.azurecr.io'
+  containerRegistry: 'acr492753.azurecr.io'
   dockerfilePath: './content-web'
   tag: '${{ github.run_id  }}'
 
